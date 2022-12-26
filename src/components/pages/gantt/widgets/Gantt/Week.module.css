@@ -1,0 +1,21 @@
+.c {
+  vertical-align: middle;
+
+
+}
+
+.weekValue{
+  height: 24px;
+  line-height: 24px;
+  color: #262842;
+  white-space: nowrap;
+  text-align: center;
+
+  width: 100%;
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  white-space: nowrap;
+}

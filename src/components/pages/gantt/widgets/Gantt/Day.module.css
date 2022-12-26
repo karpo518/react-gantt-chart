@@ -1,0 +1,20 @@
+.c {
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.dayValue {
+  width: 22px;
+  height: 24px;
+  line-height: 24px;
+  color: #262842;
+  white-space: nowrap;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0px auto;
+}
+
+.dayHoliday {
+  color: #A9A9B8;
+}

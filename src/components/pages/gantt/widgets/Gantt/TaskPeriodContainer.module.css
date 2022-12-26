@@ -1,0 +1,38 @@
+.c {
+  display: block;
+}
+
+.collapsed > .sub_items {
+  display: none;
+}
+
+.c .item {
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.c .period_title {
+  font-size: 14px;
+  color: #262842;
+}
+
+.c .period_value {
+  height: 24px;
+  border: 1px solid #497CF6;
+  border-radius: 4px;
+  background: #E2EBFF;
+  margin-right: 8px;
+}
+
+.c .c .period_value, .c .c .c .c .c .period_value {
+  border-color: #FFA530;
+  background: #FFF2E0;
+}
+
+.c .c .c .period_value {
+  border-color: #2DB77B;
+  background: #CFF0D6;
+}
+

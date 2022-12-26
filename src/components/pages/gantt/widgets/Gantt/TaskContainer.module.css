@@ -1,0 +1,89 @@
+.c {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  border-color: rgba(38, 40, 66, 0.12);
+}
+
+td > .c {
+  margin-top: 40px;
+}
+
+td > .c{
+  border-width: 1px 0px 1px 0px;
+}
+
+.c .item {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.icon_place {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.icon_toggle {
+  margin-right: 8px;
+}
+
+.icon_toggle::before {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.icon_expand::before {
+  content: url("/src/common/assets/images/icons/click_to_open.png");
+}
+
+.icon_collapse::before {
+  content: url("/src/common/assets/images/icons/click_to_close.png");
+}
+
+.collapsed > .sub_items {
+  display: none;
+}
+
+.icon_toggle {
+  cursor: pointer;
+}
+
+.children_count {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 12px;
+  color: #8B8C9E;
+  width: 7px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.item .task_icon {
+  margin-right: 7px;
+}
+
+.c .task_icon::before {
+  content: url("/src/common/assets/images/icons/task_level_1.png");
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.c .c .task_icon::before {
+  content: url("/src/common/assets/images/icons/task_level_2.png");
+}
+
+.c .c .c .task_icon::before {
+  content: url("/src/common/assets/images/icons/task_level_3.png");
+}
+
+.c .c .c .c .task_icon::before {
+  content: url("/src/common/assets/images/icons/task_level_4.png");
+}
+
+.c .c .c .c .c .task_icon::before {
+  content: url("/src/common/assets/images/icons/task_level_5.png");
+}
